@@ -1,0 +1,109 @@
+/**
+ * @name TLOU Rainy City BetterDiscord Theme
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LITHOGRAPH+LIGHT:wght@100;300;400;500;700&display=swap');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+
+:root {
+  --main-color: #00143C;
+  --hover-color: #0A3152;
+  --success-color: #175A00;
+  --danger-color: #980000;
+  --url-color: #5D90F7;
+  --background-image: url('https://i.imgur.com/mx4rd4d.jpg');
+  --background-shading: 0%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 200%;
+  --background-contrast: 100%;
+  --background-saturation: 200%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://i.imgur.com/cKZlu90.png');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 200%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 200%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 6px;
+  --user-modal-image: url('https://i.imgur.com/NVdFIFP.png');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 200%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 200%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 6px;
+  --home-icon: url('https://i.imgur.com/7qOf9lx.jpg');
+  --home-position: center;
+  --home-size: 48px;
+  --channel-unread: #008BFF;
+  --channel-color: rgb(56,131,194,1);
+  --muted-color: rgb(56,131,194,0.45);
+  --online-color: #5CCB00;
+  --idle-color: #A16500;
+  --dnd-color: #9B0000;
+  --streaming-color: #310085;
+  --offline-color: #000000;
+  --main-font: Futura;
+  --code-font: LITHOGRAPH LIGHT;
+  --channels-width: 297px;
+  --members-width: 249px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 3px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3.5px;
+  --rs-large-width: 3px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #5CCB00;
+  --rs-idle-color: #A16500;
+  --rs-dnd-color: #9B0000;
+  --rs-offline-color: #000000;
+  --rs-streaming-color: #310085;
+  --rs-phone-visible: block;
+  --HSL-server-icon-size: 36px;
+  --HSL-server-spacing: 18px;
+}
+
+/* Any custom CSS below here */
+
+
